@@ -3516,11 +3516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Models\\Models.csproj",
+      "projectPath": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\Tien Dat\\.nuget\\packages\\",
-      "outputPath": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Models\\obj\\",
+      "outputPath": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tien Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",

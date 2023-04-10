@@ -1,0 +1,5 @@
+C:\Users\Tien Dat\Documents\GitHub\PTienDatJWT\TienDatPractive\Models\obj\Debug\net6.0-windows\Models.csproj.AssemblyReference.cache
+C:\Users\Tien Dat\Documents\GitHub\PTienDatJWT\TienDatPractive\Models\obj\Debug\net6.0-windows\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tien Dat\Documents\GitHub\PTienDatJWT\TienDatPractive\Models\obj\Debug\net6.0-windows\Models.AssemblyInfoInputs.cache
+C:\Users\Tien Dat\Documents\GitHub\PTienDatJWT\TienDatPractive\Models\obj\Debug\net6.0-windows\Models.AssemblyInfo.cs
+C:\Users\Tien Dat\Documents\GitHub\PTienDatJWT\TienDatPractive\Models\obj\Debug\net6.0-windows\Models.csproj.CoreCompileInputs.cache

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net7.0": {
       "Common/1.0.0": {
         "type": "project",
         "framework": "Unsupported,Version=v0.0",
@@ -37,7 +37,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net7.0": [
       "Common >= 1.0.0",
       "Models >= 1.0.0"
     ]
@@ -48,32 +48,32 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\PractiveJwt10\\PractiveJwt10.csproj",
+      "projectUniqueName": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\PractiveJwt10\\PractiveJwt10.csproj",
       "projectName": "PractiveJwt10",
-      "projectPath": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\PractiveJwt10\\PractiveJwt10.csproj",
+      "projectPath": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\PractiveJwt10\\PractiveJwt10.csproj",
       "packagesPath": "C:\\Users\\Tien Dat\\.nuget\\packages\\",
-      "outputPath": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\PractiveJwt10\\obj\\",
+      "outputPath": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\PractiveJwt10\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tien Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Common\\Common.csproj": {
-              "projectPath": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Common\\Common.csproj"
+            "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Common\\Common.csproj"
             },
-            "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Models\\Models.csproj": {
-              "projectPath": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Models\\Models.csproj"
+            "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Models\\Models.csproj"
             }
           }
         }
@@ -85,8 +85,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
@@ -106,19 +106,19 @@
     {
       "code": "NU1201",
       "level": "Error",
-      "message": "Project Models is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project Models supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "message": "Project Models is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project Models supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
       "libraryId": "Models",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1201",
       "level": "Error",
-      "message": "Project Common is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project Common supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "message": "Project Common is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project Common supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
       "libraryId": "Common",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     }
   ]

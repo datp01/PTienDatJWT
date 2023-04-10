@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Common\\Common.csproj": {}
+    "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Common\\Common.csproj": {}
   },
   "projects": {
-    "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Common\\Common.csproj": {
+    "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Tien Dat\\.nuget\\packages\\",
-        "outputPath": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\Common\\obj\\",
+        "outputPath": "C:\\Users\\Tien Dat\\Documents\\GitHub\\PTienDatJWT\\TienDatPractive\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tien Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
