@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "hxCxWd2Mx5GNfGTs21u/hk0XBzGtFwfW+pF51Q9Sggd7g06u/q80bl44isnvDIZK2WuAOv0ZAdiiFCl8JdfXLQ==",
+  "success": false,
+  "projectFilePath": "D:\\Aptech\\S3\\New folder (2)\\PractiveJwt10\\PractiveJwt10\\PractiveJwt10.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Models is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project Models supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Models",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Common is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project Common supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
