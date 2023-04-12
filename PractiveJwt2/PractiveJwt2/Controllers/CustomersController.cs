@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Microsoft.VisualBasic;
 using PractiveJwt2.Models;
+
 
 namespace PractiveJwt2.Controllers
 {
@@ -25,17 +28,27 @@ namespace PractiveJwt2.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Customer>> GetCustomer(long id)
         {
-            var customer = await _context.Customers.FindAsync(id);
-            var order = await _context.Orders.FindAsync(id);
-            if (customer == order) 
+            var optionsBuilder = new DbContextOptionsBuilder<PractiveContext>();
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=PractiveDb;Trusted_Connection=True;");
+
+            using (var context = new PractiveContext(optionsBuilder.Options))
             {
+                var query = from customer in context.Customers
+                            join order in context.Orders on customer.Id equals order.CustomerId into orders
+                            from order in orders.DefaultIfEmpty()
+                            where customer.Id == id
+                            select new { Customer = customer, Order = order };
+
+                var result = await query.FirstOrDefaultAsync();
+                if (result == null)
+                {
+                    return NotFound();
+                }
+
+                return result.Customer;
             }
-            if (customer == null)
-            {
-                return NotFound();
-            }
-            return customer;
         }
+
 
         // GET: CustomersController/Create
         [HttpPost]
